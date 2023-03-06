@@ -11,8 +11,8 @@ function openMenu(){
 
 menu_btn.addEventListener("click", openMenu);
 
-anchors.forEach((item) => {
-  item.addEventListener('click', openMenu)
+anchors.forEach((e) => {
+  e.addEventListener('click', openMenu)
 });
 
 
